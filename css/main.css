@@ -9,5 +9,68 @@ html{
 }
 
 body{
-  margin: 0em;
+  background-color: #2b3951;
+  margin: 0;
+  font-family: 'Contrail One', cursive;
+}
+
+header{
+  text-align: center;
+  padding: 3.5em 0em 0em 0em;
+  color: white;
+}
+
+h1{
+  background-color: #1a2230;
+  margin:0;
+  padding: 1em;
+}
+
+div{
+  position: relative;
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+.left{
+  width: 125px;
+  position:absolute;
+  left: 2.25em;
+  bottom: 2em;
+  top: -2.25em;
+  float: left;
+}
+
+.right{
+  width: 125px;
+  position: absolute;
+  right: 2.25em;
+  bottom: 2em;
+  top: -2.25em;
+  float: right;
+}
+
+.body{
+  width: 320px;
+  display: block;
+}
+
+.brain{
+  width: 46px;
+  top: 0em;
+  right: 8.5em;
+  position: absolute;
+}
+
+img{
+  transition: all 200ms linear;
+}
+
+div:hover .left{
+  left: 0em;
+}
+
+div:hover .right{
+  right: 0em;
 }
